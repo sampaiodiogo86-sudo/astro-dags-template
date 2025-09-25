@@ -22,6 +22,8 @@ GCP_CONN_ID  = "google_cloud_default"      # Airflow connection with a SA that c
 DEFAULT_ARGS = {
     "email_on_failure": True,
     "owner": "Alex Lopes,Open in Cloud IDE",
+    "retries": 3,                       # Tenta executar a tarefa até 3 vezes
+    "retry_delay": timedelta(minutes=5),  # Espera 5 minutos entre as tentativa
 }
 
 @task
