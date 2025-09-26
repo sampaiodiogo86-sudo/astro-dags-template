@@ -18,8 +18,8 @@ USE_POOL      = True
 POOL_NAME     = "openfda_api"
 
 # Período fixo para o teste
-TEST_START = date(2024, 1, 1)
-TEST_END   = date(2024, 2, 29)
+TEST_START = date(2023, 1, 1)
+TEST_END   = date(2023, 12, 31)
 
 # --- Funções Auxiliares ---
 SESSION = requests.Session()
