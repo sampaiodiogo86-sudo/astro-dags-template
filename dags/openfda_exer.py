@@ -19,7 +19,7 @@ POOL_NAME     = "openfda_api" # Reutilizando o mesmo pool que já criamos
 
 # Período de teste que garantidamente terá dados de dispositivos
 TEST_START = date(2024, 1, 1)
-TEST_END   = date(2024, 1, 31) # Apenas um mês para o teste ser rápido
+TEST_END   = date(2024, 12, 31) # Apenas um mês para o teste ser rápido
 
 # --- Funções Auxiliares ---
 SESSION = requests.Session()
