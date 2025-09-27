@@ -18,7 +18,7 @@ POOL_NAME     = "openfda_api"
 
 # Período de teste que garantidamente terá dados de medicamentos
 TEST_START = date(2024, 1, 1)
-TEST_END   = date(2024, 1, 31)
+TEST_END   = date(2024, 12, 31)
 
 # --- Funções Auxiliares ---
 SESSION = requests.Session()
